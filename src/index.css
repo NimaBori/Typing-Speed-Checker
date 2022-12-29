@@ -1,0 +1,42 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  color: orange;  
+}
+
+p {
+  font-weight: 700;
+}
+
+.guide {
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 2rem;  
+}
+
+textarea {
+  height: 200px;
+  font-weight: 500;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.original-text {  
+  line-height: 2rem;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-right: 1px dashed black;
+}
+
+.first-col {
+  border-left: 1px dashed black;
+}
